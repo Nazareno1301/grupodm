@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description"
+        content="Realizamos el tratamiento biologico y fisico quimico del agua, mediante procesos de aireacion, efluentes y depuracion.Brindamos un servicio desde hace 30 años que es vital para la sociedad.">
+    <meta name="keywords"
+        content="TRATAMIENTO BIOLOGICO, BACTERIAS, EFLUENTES, SEDIMENTADOR, COMANDO ELECTRICO, SISTEMAS CLOACALES">
+
+    <title>GRUPO DM - Ingenieria y servicios</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- biblioteca carrousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!--Google Fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-section">
+        <!-- Logo -->
+        <img src="./imagenes/logoDM.png" alt="Logo del Negocio" class="logo">
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <h1>GRUPO DM - Ingenieria y servicios</h1>
+            <p>Tratamiento de Agua para Clientes Industriales y Barrios Privados</p>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="main-section">
+            <div class="container">
+                <img src="./imagenes/oceano.jpeg" alt="Imagen de Tratamiento de Agua">
+                <div class="overlay">
+                    <h2 class="main-title">Enfocados en mejorar y preservar la calidad de nuestra agua</h2>
+                    <p class="sub-title">Brindamos desde hace 30 años soluciones para el tratamiento de aguas y
+                        efluentes.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Servicios -->
+        <section class="services-section" id="servicios">
+            <div class="services-content">
+                <h2>Servicios</h2>
+                <ul class="services-list">
+                    <li>
+                        <i class="fas fa-water"></i>
+                        Tratamiento de Aguas Residuales
+                    </li>
+                    <li>
+                        <i class="fas fa-tint"></i>
+                        Ingenieria, mantenimiento y construcciones
+                    </li>
+                    <li>
+                        <i class="fas fa-flask"></i>
+                        Análisis de Calidad del Agua
+                    </li>
+                    <li>
+                        <i class="fas fa-fire"></i>
+                        Tableros de comando elecrtico
+                    </li>
+                </ul>
+            </div>
+            <div class="services-carousel">
+                <div class="carousel-item">
+                    <img src="./imagenes/carrusel1.jpg" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carrusel2.jpg" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carrusel3.jpg" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carrusel4.jpg" alt="Imagen 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carrusel5.jpg" alt="Imagen 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/carrusel6.jpg" alt="Imagen 6">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección "Nosotros" -->
+        <section class="about-section" id="nosotros">
+            <div class="about-content">
+                <h2>Sobre Nosotros</h2>
+                <p>Grupo DM es un emprendimiento dedicado al diseño, construcción, operación, asesoramiento y
+                    mantenimiento de Plantas de Tratamiento de Efluentes cloacales o industriales. Nuestra misión es
+                    satisfacer las necesidades de nuestros clientes, proveyendo soluciones de confianza, y orientarlos
+                    de manera transparente en el mejor recurso para cada aplicación. Contamos para ello, con la
+                    estructura adecuada para llevar a cabo dichas soluciones cumpliendo así con las legislaciones
+                    vigentes y por sobre todo cuidando el medio ambiente.</p>
+            </div>
+        </section>
+        <section class="contact-section" id="contacto">
+            <div class="contact-content">
+                <h2>Contacto</h2>
+                <ul class="contact-list">
+                    <li><i class="fas fa-envelope"></i> contacto@grupodm.com</li>
+                    <li><i class="fas fa-phone"></i> +54 123 456 789</li>
+                    <li><i class="fab fa-facebook"></i> Facebook</li>
+                    <li><i class="fab fa-instagram"></i> Instagram</li>
+                </ul>
+            </div>
+            <!-- Formulario de contacto -->
+            <div class="contact-form">
+                <h3>Dejanos tu consulta</h3>
+                <form action="https://formspree.io/f/moqprzjv" method="POST">
+                    <input type="text" name="nombre_apellido" placeholder="Nombre y Apellido" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono" required>
+                    <input type="text" name="empresa" placeholder="Empresa" required>
+                    <textarea name="consulta" placeholder="Consulta" required></textarea>
+                    <button type="submit">Enviar</button>
+                  </form>
+            </div>
+        </section>
+        </section>
+
+    </main>
+
+    <!-- Botón de WhatsApp -->
+    <a href="https://wa.me/NUMERODEWHATSAPP" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i> <span>¡Contáctanos por WhatsApp!</span>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="footer-content">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/tu_cuenta_de_instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/tu_pagina_de_facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://wa.me/tu_numero_de_whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2023 Grupo DM - Ingenieria Y Servicios. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+        integrity="sha512-w1HsvV5aJ0slF/j9L0W4/7dGz3eysht/b1OFpJ1Pm6BbERQp1iG2Yb2fuD1tx8Ohz5tmA7exrbbTgmRk/HwKw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Agrega el enlace al archivo JavaScript de Slick Carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        // Inicializar el carrusel de imágenes con Slick Carousel
+        $(document).ready(function () {
+            $('.services-carousel').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000, // Velocidad de transición entre imágenes en milisegundos (3 segundos)
+                dots: true, // Ocultar los puntos de navegación en el carrusel
+                prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>'
+            });
+        });
+    </script>
+</body>
+
+</html>

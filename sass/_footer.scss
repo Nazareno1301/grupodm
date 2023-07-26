@@ -1,0 +1,40 @@
+ /* Footer */
+ .footer-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #343434; /* Color de fondo (gris claro) */
+    color: #ffffff; /* Color de texto (negro) */
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif; /* Fuente del texto del footer */
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #ffffff; /* Color de los iconos (verde oscuro) */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #669bcc; /* Color del icono en el hover (azul) */
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif; 
+    color: #666666; 
+  }

@@ -1,0 +1,260 @@
+  /* Section con la foto y el texto */
+  .main-section {
+    position: relative;
+  }
+
+  .main-section .container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .main-section img {
+    width: 100%;
+    height: 30rem;
+    display: block;
+    object-fit: cover;
+  }
+
+  .main-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .main-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .sub-title {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  /* Sección de Servicios */
+  .services-section {
+    padding: 40px;
+    text-align: center;
+    background-color: map-get($paleta_de_colores, terciario);
+    color: #000000;
+  }
+
+  .services-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h2 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      font-family: 'Nunito Sans', sans-serif;
+      color: map-get($paleta_de_colores, primario)
+    }
+  }
+
+  .services-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .services-list li {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  .services-list i {
+    font-size: 24px;
+    margin: 0 20px 0 20px;
+    color: #060606;
+  }
+
+  /* Estilo para el carrusel */
+  .services-carousel {
+    margin-top: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* Estilo para las imágenes del carrusel */
+  .services-carousel img {
+    width: 100%;
+    height: 20rem;
+  }
+
+  /* Estilo para los botones de navegación del carrusel */
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #3f3f3f;
+    background: none;
+    border: none;
+    z-index: 1;
+    padding: 5px;
+  }
+
+  .slick-prev {
+    left: -50px;
+    /* posición de la flecha izquierda */
+  }
+
+  .slick-next {
+    right: -50px;
+    /*posición de la flecha derecha */
+  }
+
+  /* Estilo para los puntos de navegación del carrusel */
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slick-dots li {
+    margin: 0 5px;
+  }
+
+  .slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(222, 222, 222, 0.6);
+    text-indent: -9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: #ffffff;
+  }
+
+  /* Sección "Nosotros" */
+  .about-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: map-get($paleta_de_colores, primario);
+  }
+
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  /* Sección "Contacto" */
+  .contact-section {
+    padding: 40px;
+    background-color: #f7f7f7;
+    color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact-content {
+    max-width: 300px;
+  }
+
+  .contact-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: map-get($paleta_de_colores, primario);
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .contact-list li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .contact-list i {
+    margin-right: 10px;
+    color: map-get($paleta_de_colores, secundario);
+    font-size: 20px;
+  }
+
+  /* Formulario de contacto */
+  .contact-form {
+    width: 40rem;
+  }
+
+  .contact-form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: map-get($paleta_de_colores, secundario);
+  }
+
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .contact-form button {
+    padding: 10px;
+    background-color: map-get($paleta_de_colores, secundario);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+  }

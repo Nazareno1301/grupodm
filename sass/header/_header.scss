@@ -1,0 +1,17 @@
+  /* Header */
+  header {
+    background-color:map-get($paleta_de_colores, primario );
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+/* Logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    margin-right: 20px;
+  }
+  .header-content {
+    flex: 1;
+  }
