@@ -7,10 +7,11 @@
     align-items: center;
   }
 /* Logo */
-.logo {
-    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+.logo{
+    width: 100px;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
     height: auto;
-    margin-right: 20px;
   }
   .header-content {
     flex: 1;

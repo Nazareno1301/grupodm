@@ -218,13 +218,13 @@
 
   .contact-list i {
     margin-right: 10px;
-    color: map-get($paleta_de_colores, secundario);
+    color: map-get($paleta_de_colores, primario);
     font-size: 20px;
   }
 
   /* Formulario de contacto */
   .contact-form {
-    width: 40rem;
+    width: 60%;
   }
 
   .contact-form h3 {
@@ -232,7 +232,7 @@
     font-weight: bold;
     margin-bottom: 20px;
     font-family: 'Nunito Sans', sans-serif;
-    color: map-get($paleta_de_colores, secundario);
+    color: map-get($paleta_de_colores, primario);
   }
 
   .contact-form form {
