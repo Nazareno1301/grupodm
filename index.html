@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO -->
-    <meta name="description"
-        content="Realizamos el tratamiento biologico y fisico quimico del agua, mediante procesos de aireacion, efluentes y depuracion.Brindamos un servicio desde hace 30 años que es vital para la sociedad.">
+    <meta name="description" content="Realizamos el tratamiento fisico-quimico y biologico del agua.">
     <meta name="keywords"
         content="TRATAMIENTO BIOLOGICO, BACTERIAS, EFLUENTES, SEDIMENTADOR, COMANDO ELECTRICO, SISTEMAS CLOACALES">
 
@@ -120,21 +119,39 @@
             <div class="contact-content">
                 <h2>Contacto</h2>
                 <ul class="contact-list">
-                    <li><i class="fas fa-envelope"></i>ventas@grupodm.com.ar</li>
-                    <li><i class="fas fa-phone"></i> +54 1145784071</li>
-                    <li><i class="fab fa-facebook"></i> GrupoDM</li>
-                    <li><i class="fab fa-instagram"></i> @grupodm_efluentes</li>
+                    <a href="mailto:ventas@grupodm.com.ar">
+                        <li><i class="fas fa-envelope"></i>ventas@grupodm.com.ar</li>
+                    </a>
+                    <a href="https://wa.me/+5491145784071">
+                        <li><i class="fas fa-phone"></i> +54 1145784071</li>
+                    </a>
+                    <a href="https://www.facebook.com/aguasyefluentes">
+                        <li><i class="fab fa-facebook"></i>GrupoDM</li>
+                    </a>
+                    <a href="https://www.instagram.com/grupodm_efluentes">
+                        <li><i class="fab fa-instagram"></i> @grupodm_efluentes</li>
+                    </a>
                 </ul>
             </div>
             <!-- Formulario de contacto -->
             <div class="contact-form">
                 <h3>Dejanos tu consulta</h3>
-                <form action="https://formspree.io/f/moqprzjv" method="POST">
-                    <input type="text" name="nombre_apellido" placeholder="Nombre y Apellido" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="tel" name="telefono" placeholder="Teléfono" required>
-                    <input type="text" name="empresa" placeholder="Empresa" required>
-                    <textarea name="consulta" placeholder="Consulta" required></textarea>
+                <form action="mail.php" method="post">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa">
+
+                    <label for="consulta">Consulta:</label>
+                    <textarea id="consulta" name="consulta" required></textarea>
+
                     <button type="submit">Enviar</button>
                 </form>
             </div>
@@ -155,7 +172,7 @@
             <div class="social-icons">
                 <a href="https://www.instagram.com/grupodm_efluentes" target="_blank"><i
                         class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/GrupoDM" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/aguasyefluentes" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://wa.me/+5491145784071" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
